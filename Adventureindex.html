@@ -5,11 +5,20 @@
                 #option1{
                     padding-bottom: 50px;
                 }
+                body{
+                    background: yellow;
+                }
+                a:link{
+                    color:#FF8383;
+                }
+                a:visited{
+                    color:#FF1003;
+                }
             </style>
             
         </head>
         <body> 
-            <p>These are your choices </p>
+            <p id = "Paragraph">These are your choices </p>
             <div id = "option1">
                 <a href = "Spongebob-o.gif">Option 1 </a>
             </div>
@@ -20,4 +29,7 @@
             
             
         </body>
+        <script>
+            document.getElementById("Paragraph").style.color = "red";
+        </script>
     </html>
