@@ -1,0 +1,29 @@
+h1.clicked {
+    color: darksalmon;
+}
+img.logo {
+    transition:1s;
+    transform: rotate(120);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 128px;
+    height: 128px;
+    margin-left: -64px;
+    margin-top: -64px;
+}
+img.pig {
+    transition:0s;
+    transform: rotate(0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 128px;
+    height: 128px;
+    margin-left: -64px;
+    margin-top: -64px;
+    
+}
+.rotated {
+    -webkit-transform: rotateY(140deg);
+}
