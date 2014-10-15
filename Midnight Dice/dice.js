@@ -119,6 +119,7 @@ function updateState() {
     $('.score')
         .toggleClass('invalid', !score.qualify)
         .text(score.value);
+    
     // rollAgain is true if there is at least one die without the 'hold' class
     var rollAgain = $('.die:not(.hold)').length > 0;
     // if rollAgain is false then hide the roll button, otherwise show it
